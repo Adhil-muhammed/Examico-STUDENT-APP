@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header } from ".";
+import { Header, Sidebar } from ".";
 
 export const Master = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/*" element={<Header />} />
+        <Route path="/*" element={<Sidebar />} />
       </Routes>
     </BrowserRouter>
   );
