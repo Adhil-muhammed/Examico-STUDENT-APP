@@ -16,7 +16,7 @@ export const Home = () => {
                 <a href="index.html">Home</a>
               </li>
               <li>
-                <Link to={"/about/*"}>About</Link>
+                <Link to={"/about"}>About</Link>
               </li>
               <li className="menu">
                 <a href="projects.html">Projects</a>
@@ -43,7 +43,7 @@ export const Home = () => {
         <div id="body" className="home">
           <div className="header">
             <div>
-              <img src="images/satellite.png" alt="" className="satellite" />
+              <img src="..images/satellite.png" alt="" className="satellite" />
               <h1>SOYUZ TMA-M</h1>
               <h2>SPACECRAFT</h2>
               <a href="blog.html" className="more">
