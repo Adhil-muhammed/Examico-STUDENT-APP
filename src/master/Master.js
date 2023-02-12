@@ -1,6 +1,5 @@
 import { DashBord } from "moduel";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header, Sidebar } from ".";
 
 export const Master = () => {
   return (

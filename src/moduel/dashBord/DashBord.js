@@ -8,8 +8,6 @@ export const DashBord = () => {
     <Routes>
       <Route path="/*" element={<Home />} />
       <Route path="/about/*" element={<Sidebar />} />
-      {/* <Route path="/home/*" element={<Home />} />
-      <Route path="/home/*" element={<Home />} /> */}
     </Routes>
   );
 };
