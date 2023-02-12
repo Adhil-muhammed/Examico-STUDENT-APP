@@ -20,19 +20,19 @@ export const Home = () => {
               </li>
               <li className="menu">
                 <a href="projects.html">Projects</a>
-                <ul className="primary">
+                {/* <ul className="primary">
                   <li>
                     <a href="proj1.html">proj 1</a>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className="menu">
                 <a href="blog.html">Blog</a>
-                <ul className="secondary">
+                {/* <ul className="secondary">
                   <li>
                     <a href="singlepost.html">Single post</a>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
                 <a href="contact.html">Contact</a>
